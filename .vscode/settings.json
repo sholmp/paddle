@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "Config.*": "makefile",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "set": "cpp",
+        "random": "cpp",
+        "fstream": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp",
+        "cholesky": "cpp",
+        "core": "cpp",
+        "eigenvalues": "cpp",
+        "geometry": "cpp",
+        "householder": "cpp",
+        "jacobi": "cpp",
+        "lu": "cpp",
+        "qr": "cpp",
+        "svd": "cpp",
+        "condition_variable": "cpp",
+        "*.txx": "cpp"
+    }
+}
