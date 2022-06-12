@@ -9,7 +9,9 @@ class Tile : public Drawable
 public:
     Tile(Position pos, int width, int height);
     virtual void draw(SDL_Renderer *renderer) const;
-
+    
+    Position pos();
+    
 private:
     Position pos_;
     int width_{};

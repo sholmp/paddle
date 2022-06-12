@@ -15,3 +15,8 @@ void Tile::draw(SDL_Renderer* renderer) const
      SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
      SDL_RenderDrawRect(renderer, &rect_);
 }
+
+Position Tile::pos()
+{
+    return pos_;
+}

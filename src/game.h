@@ -10,6 +10,7 @@ class Game
 {
 public:
     Game(int window_width, int window_height);
+    bool init();
     void run(); // main loop is in here
     
     ~Game();
